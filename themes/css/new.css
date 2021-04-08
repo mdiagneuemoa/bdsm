@@ -1,0 +1,98 @@
+.style{
+    text-align: center;
+    position: relative;
+    bottom: 300px;
+    font-size: 70px;
+    font-family: 'Niconne';
+    color: white;
+    text-shadow: 3px 3px 3px black;
+ }
+body{
+    /*background-image: url("../images/body.png");
+    background-repeat: no-repeat;*/
+    background-color: white;
+
+}
+ .no-pad{
+     padding-left: 0px !important;
+     padding-right: 0px !important;
+     /*min-height: 85vh;*/
+ }
+.taill{
+    width: 100%;
+    height: 100%;
+}
+.form{
+    
+    top: 15%;
+    background-image: url("../images/foot.jpg");
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Times New Roman';
+    color: beige;
+    font-size: 150%;
+    font-weight: bold;
+    width: 100%;
+}
+footer{
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: 100px;
+    color: whitesmoke;
+
+    background-image: url("../images/foot.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 350px;
+    background-size: 100%;
+   
+    
+}
+.imag img{
+    
+    display: inline-block;
+    height: 5%;
+    width: 5%;
+}
+
+.adresse{
+    width: 50%;
+}
+/*.bloc1{height: 400px;
+    width: 200px;;
+    border: 2px ;
+display: inline-block;
+}
+.bloc1 img{
+    height: 200px;
+    width: 250px;
+}
+.bloc2{height: 400px;
+    width: 200px;;
+    border: 2px ;
+
+}
+.bloc2 img{
+    height: 200px;
+    width: 250px;
+}
+.codemer{
+    display: flex;
+    
+}
+.bloc{height: 400px;
+    width: 200px;;
+    border: 2px ;
+
+}
+.bloc3 img{
+    height: 200px;
+    width: 250px;
+}
+/*.im1{
+    background-image: url(../images/hotel1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    min-inline-size: 85vh;
+}*/

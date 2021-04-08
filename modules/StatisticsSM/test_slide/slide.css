@@ -1,0 +1,112 @@
+/*NB:slide.html  et slide1.html ont en commun ce fichier style.Ne pas oublier de commenter la partie non testée*/
+/*code css de slide.html*/
+/*h1{
+  text-align: center;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background: #34495e;
+}
+.containerImage{
+
+  animation: 12s slidy infinite;
+  animation-timing-function: step-start;
+}
+.slidershow {
+  width: 700px;
+  height: 400px;
+  overflow: hidden;
+}
+.middle{
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.navigation{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+}
+.bar{
+  width: 50px;
+  height: 10px;
+  border: 2px solid #fff;
+  margin: 6px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+input[name="r"]{
+  position:absolute;
+  visibility: hidden;
+}
+.sliders{
+  width: 500%;
+  height: 100%;
+  display: flex;
+}
+.slider{
+  width: 20%;
+  transition: 100%;
+}
+.slider img{
+  width: 100%;
+  height: 100%;
+}
+#r1:checked ~ .s1{
+margin: 0;
+}
+#r2:checked ~ .s1{
+  margin-left: -20%;
+  }
+
+  #r3:checked ~ .s1{
+    margin-left: -40%;
+    }
+*/    
+/*code css de slide1.html*/
+.slide1{
+overflow: hidden;
+}
+.slide1{
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+.slide1 figure img{
+  width: 20%;
+  float: left;
+}
+@keyframes slider{
+  0%{
+    left: 0;
+  }
+  20%{
+    left:0;
+  }
+  25%{
+    left: -100%;
+  }
+  45%{
+    left: -100%;
+  }
+  50%{
+    left: -200%;
+  }
+  70%{
+    left: -200%;
+  }
+}
+
+
+
+
+
+
+
+

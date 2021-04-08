@@ -1,0 +1,13 @@
+<img src="cache/images/hor_0__01249488366.png" border="0" usemap="#cache/images/hor_0__01249488366.png">
+<map name="cache/images/hor_0__01249488366.png">
+	<area shape="rect" coords="124,43,303,70" href="index.php?module=Accounts&action=index&from_dashboard=true&search_text=Hospitality&search_field=industry&searchtype=BasicSearch&query=true&type=entchar&viewname=4" alt="H&Atilde;&acute;pital=%d">
+	<area shape="rect" coords="124,87,303,114" href="index.php?module=Accounts&action=index&from_dashboard=true&search_text=Technology&search_field=industry&searchtype=BasicSearch&query=true&type=entchar&viewname=4" alt="Technologie=%d">
+	<area shape="rect" coords="124,131,303,158" href="index.php?module=Accounts&action=index&from_dashboard=true&search_text=Other&search_field=industry&searchtype=BasicSearch&query=true&type=entchar&viewname=4" alt="Autre=%d">
+	<area shape="rect" coords="124,175,303,202" href="index.php?module=Accounts&action=index&from_dashboard=true&search_text=Entertainment&search_field=industry&searchtype=BasicSearch&query=true&type=entchar&viewname=4" alt="Spectacle=%d">
+	<area shape="rect" coords="124,219,303,246" href="index.php?module=Accounts&action=index&from_dashboard=true&search_text=Manufacturing&search_field=industry&searchtype=BasicSearch&query=true&type=entchar&viewname=4" alt="Industrie=%d">
+	<area shape="rect" coords="124,263,303,290" href="index.php?module=Accounts&action=index&from_dashboard=true&search_text=Shipping&search_field=industry&searchtype=BasicSearch&query=true&type=entchar&viewname=4" alt="Transport=%d">
+	<area shape="rect" coords="124,307,661,334" href="index.php?module=Accounts&action=index&from_dashboard=true&search_text=--None--&search_field=industry&searchtype=BasicSearch&query=true&type=entchar&viewname=4" alt="Aucun=%d">
+	<area shape="rect" coords="124,351,303,378" href="index.php?module=Accounts&action=index&from_dashboard=true&search_text=Electronics&search_field=industry&searchtype=BasicSearch&query=true&type=entchar&viewname=4" alt="Electronique=%d">
+	<area shape="rect" coords="124,395,303,422" href="index.php?module=Accounts&action=index&from_dashboard=true&search_text=Telecommunications&search_field=industry&searchtype=BasicSearch&query=true&type=entchar&viewname=4" alt="T&Atilde;&copy;l&Atilde;&copy;communications=%d">
+	<area shape="rect" coords="124,439,303,466" href="index.php?module=Accounts&action=index&from_dashboard=true&search_text=Banking&search_field=industry&searchtype=BasicSearch&query=true&type=entchar&viewname=4" alt="Banque=%d">
+</map>

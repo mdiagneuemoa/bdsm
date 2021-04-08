@@ -1,0 +1,154 @@
+#main{
+width:100%;
+min-height:700px;
+/*margin:1px auto*/
+}
+
+
+form#contactform {
+  /*background: #808080;*/
+   background: #DCDCDC;
+ 
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px;
+  width: 600px;
+}
+
+form#contactform fieldset {
+  border: none;
+  margin-bottom: 5px;
+}
+form#contactform fieldset:last-of-type {
+  margin-bottom: 0;
+}
+
+
+form#contactform legend {
+  color: #FF5900;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 5px;
+ /* text-shadow: 0 1px 1px #c0d576;*/
+}
+form#contactform fieldset fieldset legend {
+  color: #111111;
+  font-size: 13px;
+  font-weight: normal;
+  padding-bottom: 0;
+}
+
+form#contactform ol li {
+  background: #b9cf6a;
+  background: rgba(255,255,255,.3);
+  border-color: #e3ebc3;
+  border-color: rgba(255,255,255,.6);
+  border-style: solid;
+  border-width: 2px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  line-height: 30px;
+  list-style: none;
+  padding: 5px 10px;
+  margin-bottom: 2px;
+}
+form#contactform ol ol li {
+  background: none;
+  border: none;
+  float: left;
+}
+
+
+form#contactform label {
+  float: left;
+  font-size: 13px;
+  width: 250px;
+}
+form#contactform fieldset fieldset label {
+  background:none no-repeat left 50%;
+  line-height: 20px;
+  padding: 0 0 0 30px;
+  width: auto;
+}
+form#contactform label[for=visa] {
+  background-image: url(visa.gif);
+}
+form#contactform label[for=amex] {
+  background-image: url(amex.gif);
+}
+form#contactform label[for=mastercard] {
+  background-image: url(mastercard.gif);
+}
+form#contactform fieldset fieldset label:hover {
+  cursor: pointer;
+}
+
+form#contactform input:not([type=radio]),
+form#contactform textarea {
+  background: #ffffff;
+  border: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  font: italic 13px Georgia, "Times New Roman", Times, serif;
+  outline: none;
+  padding: 5px;
+  width: 200px;
+}
+form#contactform input:not([type=submit]):focus,
+form#contactform textarea:focus {
+  /*background: #eaeaea;*/
+}
+form#contactform input[type=radio] {
+  float: left;
+  margin-right: 5px;
+}
+
+form#contactform button {
+  background: #FF5900;
+  border: none;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+  display: block;
+  font: 18px Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 1px;
+  margin: auto;
+  padding: 7px 25px;
+  text-shadow: 0 1px 1px #000000;
+  text-transform: uppercase;
+}
+form#contactform button:hover {
+  background: #1e2506;
+  cursor: pointer;
+}
+
+.addcontact  {
+  background: #FF5900;
+  border: none;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+  display: block;
+  font: 14px Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 1px;
+  margin: auto;
+  padding: 5px 15px;
+  text-shadow: 0 1px 1px #000000;
+  cursor:pointer;
+}
+
+
+.catlib  {
+ 
+  color: #ABC8E2;
+  font: 10px Georgia, "Times New Roman", Times, serif;
+
+}

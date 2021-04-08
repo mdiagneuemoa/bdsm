@@ -1,0 +1,42 @@
+/* Styles for the page header */
+
+header.page-header {
+    height: 6rem;
+    background-repeat: repeat-x;
+    background-position: left bottom;
+   /* border-bottom: 2px solid #1d1d1d;*/
+}
+
+header.page-header .container {
+    /*padding: 1rem;*/
+    position: relative;
+}
+
+header.page-header h1 {
+    margin: 0;
+    font-size: 3rem;
+    padding-top: 1rem;
+}
+
+header.page-header p {
+    font-size: 2rem;
+    font-style: italic;
+    
+    
+}
+
+.titrehead {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	text-decoration:none;
+	color:blue;
+	font-weight:bold;
+}
+.hello {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+	width:80%;
+}

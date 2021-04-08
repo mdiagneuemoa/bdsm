@@ -1,0 +1,9 @@
+<img src="cache/images/pie_0__01249488354.png" border="0" usemap="#cache/images/pie_0__01249488354.png">
+<map name="cache/images/pie_0__01249488354.png">
+	<area shape="polygon" coords="444,282,607,282,585,364,576,378" href="index.php?module=Leads&action=index&from_dashboard=true&search_text=Cold+Call&search_field=leadsource&searchtype=BasicSearch&query=true&type=entchar&viewname=1" alt="Appel froid=%d">
+	<area shape="polygon" coords="444,282,576,378,510,431,427,444,394,437" href="index.php?module=Leads&action=index&from_dashboard=true&search_text=Direct+Mail&search_field=leadsource&searchtype=BasicSearch&query=true&type=entchar&viewname=1" alt="Mailling=%d">
+	<area shape="polygon" coords="444,282,394,437,323,391,284,316,281,282" href="index.php?module=Leads&action=index&from_dashboard=true&search_text=--None--&search_field=leadsource&searchtype=BasicSearch&query=true&type=entchar&viewname=1" alt="Aucun=%d">
+	<area shape="polygon" coords="444,282,281,282,303,200,362,141,444,119,494,127" href="index.php?module=Leads&action=index&from_dashboard=true&search_text=Employee&search_field=leadsource&searchtype=BasicSearch&query=true&type=entchar&viewname=1" alt="Salari&Atilde;&copy;=%d">
+	<area shape="polygon" coords="444,282,494,127,565,173,576,186" href="index.php?module=Leads&action=index&from_dashboard=true&search_text=Conference&search_field=leadsource&searchtype=BasicSearch&query=true&type=entchar&viewname=1" alt="Conf&Atilde;&copy;rence=%d">
+	<area shape="polygon" coords="444,282,576,186,606,265,607,282" href="index.php?module=Leads&action=index&from_dashboard=true&search_text=Trade+Show&search_field=leadsource&searchtype=BasicSearch&query=true&type=entchar&viewname=1" alt="Salon=%d">
+</map>

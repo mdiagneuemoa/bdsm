@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Mon Assistant en ligne</title>
+        
+        <link href="styles/site.css" rel="stylesheet" type="text/css" />
+        <link href="styles/nav.css" rel="stylesheet" type="text/css" />
+        <link href="styles/header.css" rel="stylesheet" type="text/css" />
+        <link href="styles/footer.css" rel="stylesheet" type="text/css" />
+        
+        <link href="styles/pages/contacts.css" rel="stylesheet" type="text/css" />
+        <link href="styles/modal.css" rel="stylesheet" type="text/css" />
+
+        <link href="styles/mobile.css" rel="stylesheet" type="text/css" />
+        <link href="styles/print.css" media="print" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        
+        
+        
+        <header class="page-header">
+             <div class="container">
+               	<table width="99%">
+					<tbody>
+							<tr>
+					          <td width="10%" nowrap>
+									<img src="images/accueilpapcci.png" alt="SI PREMIUM ACCUEIL " title="SI PREMIUM ACCUEIL" border=0>
+								</td>
+							<td align="right">			
+								Pauline POISONNIER <a href="index.php?module=Users&action=Logout"><img src="images/deconnexion.jpg" alt="deconnexion" title="deconnexion" border=0></a>
+							</td>
+							</tr>
+				</table>
+            </div>
+        </header>
+		
+	 <nav class="page-nav">
+            <div class="container">
+                <a href="accueil.htm" class="active">Accueil</a>
+                <a href="messages.html">Message</a>
+                <a href="contacts.htm">Contacts</a>
+                <a href="agenda.html">Agenda</a>
+                <a href="parametres.html">Parametres</a>
+                <!--a href="live.htm">Live</a>
+                <a href="feedback.htm">Feedback</a-->
+            </div>
+        </nav>
+					<nav id="menu-onglet">
+						<ul>
+							<li class="assist"><label class="assist"><img src="images/assistante.jpg" height="30">
+								0173023298</label>
+							</li>
+							<li>
+								<a href="contacts.htm">Contacts<span class="caret"></span></a>
+								<div>
+									<ul>
+										<li><a href="messages.html">Boite de R&eacute;ception</a></li>
+										<li><a href="agenda.html">Agenda</a></li>
+										<li><a href="parametres.html">Param&egrave;tres</a></li>
+
+									</ul>
+								</div>
+							</li>
+							<li
+								<a href="addcontacts.html"><img src="images/addcontact.jpg"><span class="caret"></span></a>
+								<div>
+									<ul>
+										<li><a href="addcontacts.html">Nouveau Contact</a></li>
+										
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="products.html"><img src="images/checkbox.gif"><span class="caret"></span></a>
+								<div>
+									<ul>
+										<li><a href="products.html#chair">Tous</a></li>
+										<li><a href="products.html#table">Aucun</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="about.html">plus<span class="caret"></span></a>
+								<div>
+									<ul>
+										<li><a href="products.html#chair">supprimer les contacts</a></li>
+										<li><a href="products.html#chair">importer...</a></li>
+										<li><a href="products.html#table">exporter...</a></li>
+									</ul>
+								</div>
+							</li>
+
+
+						</ul>
+					</nav>
+
+				
+<hr>
+                <div id="divContainer">
+ 
+ 
+        <!-- HTML5 TABLE FORMATTED VIA CSS3-->
+			<table>
+				<tr>
+					<td valign=top>
+						<nav id="menu-side">
+						<p><input type="button" id="addcontactbut" class="addcontact" onclick="showcontactform();" value="Nouveau Contact" /></p>
+						<p class="titre">Mes Contacts(25)</p>
+						<p class="titre">Cercles(16)</p>
+							<ul>
+								<li><a href="#nogo">Amis(4)</a></li>
+								<li><a href="#nogo">Famille(2)</a></li>
+								<li><a href="#nogo">Coll&egrave;gue(10)</a></li>
+							</ul>
+						<p class="titre"><a href="#join_form" id="join_pop">Nouvelle Cat&eacute;gorie</a><p>
+						<p class="titre">Importer des contacts<p>
+						<p class="titre">Exporter des contacts<p>
+						</nav>
+					</td>	
+					<td valign=top>	
+						<div id="list-contact">			
+						<table class="formatHTML5" >
+				 
+							<!-- TABLE HEADER-->
+
+							<!--thead>
+							   <tr><td colspan=3>DISCLAIMER: ALL DATA PROVIDED 'AS IS' FOR DEMO PURPOSE ONLY</td></tr>
+								<tr>
+									<th>Product</th><th>Inflation Rate</th><th>Note</th>
+								</tr>
+							</thead-->
+				 
+							<!-- TABLE BODY: MAIN CONTENT-->
+							<tbody>
+								<tr>
+									<td><input type="checkbox" name="checkbox1" value="checkbox"></td>
+									<td>Amara DIAW</td><td>amdiaw@pcci.sn</td><td>776549863</td><td>Cite Soleil N°15</td>
+								</tr>
+								<tr>
+									<td><input type="checkbox" name="checkbox1" value="checkbox"></td>
+									<td>Tomoss DIENE</td><td>tdiene@pcci.sn</td><td>774586321</td><td>Dakar</td> 
+								</tr>	
+								<tr>
+									<td><input type="checkbox" name="checkbox1" value="checkbox"></td>
+									<td>Meissa DIAGNE</td><td>mediagne@pcci.sn</td><td>774430230</td><td>Rue 1 X Avenue Bourguiba N05 Bis Castors.</td>
+								</tr>
+								<tr>
+									<td><input type="checkbox" name="checkbox1" value="checkbox"></td>
+									<td>Fatou DIOP</td><td>fdiop@pcci.sn</td><td>776504785</td><td>Dakar</td> 
+								</tr>	
+								<tr>	
+									<td><input type="checkbox" name="checkbox1" value="checkbox"></td>
+									<td>Ismaila SECK</td><td>iseck@pcci.sn</td><td>766758984</td><td>Cite Soleil N°15</td>
+								</tr>
+								<tr>
+									<td><input type="checkbox" name="checkbox1" value="checkbox"></td>
+									<td>Issa DIOP</td><td>idiop@pcci.sn</td><td>779875648</td><td>Dakar</td> 
+								 </tr>
+								
+								
+						</table>
+						</div>
+
+					</td>
+				</tr>
+			</table>	
+				<a href="#x" class="overlay" id="join_form"></a>
+					<div class="popup">
+					<h2>Ajout Cat&eacute;gorie</h2>
+					<div>
+						<label for="email">Entrez une nouvelle cat&eacute;gorie :</label><br>
+						<input type="text" id="email" value="" />
+					</div>
+					<div>
+						<input type="checkbox" name="checkbox1" value="checkbox">
+						<label for="pass">Imbriquer la cat&eacute;gorie sous :</label><br>
+						<select name="catparent" >
+							<option>Famille</option>
+							<option>Collegues</option>
+							<option>Amies</option>
+						</select>
+					</div>
+					
+					<input type="button" value="Cr&eacute;er" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="Annuler" />
+
+					<a class="close" href="#close"></a>	
+			
+					</div>
+
+        <footer class="page-footer">
+            <div class="container">
+                <p>
+                    &#169; 	2014 PCCI - BU SSII 
+                </p>
+            </div>
+        </footer>
+        
+        <script src="/scripts/pages/contacts.js" type="text/javascript"></script>
+    </body>
+</html>

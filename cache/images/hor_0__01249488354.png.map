@@ -1,0 +1,9 @@
+<img src="cache/images/hor_0__01249488354.png" border="0" usemap="#cache/images/hor_0__01249488354.png">
+<map name="cache/images/hor_0__01249488354.png">
+	<area shape="rect" coords="73,43,264,99" href="index.php?module=Leads&action=index&from_dashboard=true&search_text=Cold+Call&search_field=leadsource&searchtype=BasicSearch&query=true&type=entchar&viewname=1" alt="Appel froid=%d">
+	<area shape="rect" coords="73,117,456,172" href="index.php?module=Leads&action=index&from_dashboard=true&search_text=Direct+Mail&search_field=leadsource&searchtype=BasicSearch&query=true&type=entchar&viewname=1" alt="Mailling=%d">
+	<area shape="rect" coords="73,190,456,246" href="index.php?module=Leads&action=index&from_dashboard=true&search_text=--None--&search_field=leadsource&searchtype=BasicSearch&query=true&type=entchar&viewname=1" alt="Aucun=%d">
+	<area shape="rect" coords="73,263,648,319" href="index.php?module=Leads&action=index&from_dashboard=true&search_text=Employee&search_field=leadsource&searchtype=BasicSearch&query=true&type=entchar&viewname=1" alt="Salari&Atilde;&copy;=%d">
+	<area shape="rect" coords="73,337,264,392" href="index.php?module=Leads&action=index&from_dashboard=true&search_text=Conference&search_field=leadsource&searchtype=BasicSearch&query=true&type=entchar&viewname=1" alt="Conf&Atilde;&copy;rence=%d">
+	<area shape="rect" coords="73,410,264,466" href="index.php?module=Leads&action=index&from_dashboard=true&search_text=Trade+Show&search_field=leadsource&searchtype=BasicSearch&query=true&type=entchar&viewname=1" alt="Salon=%d">
+</map>

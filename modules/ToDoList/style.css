@@ -1,0 +1,84 @@
+body {
+    font-family: "Trebuchet MS";
+    text-align:center;
+}
+
+h1 {
+    color: #7A96DF;
+}
+
+div.todoList {
+    width: 600px;
+    text-align: center;
+    margin: auto;
+}
+
+.hide {
+    display: none;
+}
+
+div.signin {
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    font-size: 8pt;
+    padding: 0.5em;
+    text-align: right;
+    display: none;
+}
+
+h1.title {
+    margin-top:0px;
+    padding-top: 0px;
+        
+}
+
+div.main {
+    text-align: center;
+}
+
+div#accountCreateErrors {
+    color: red;
+    margin: 1em;
+    text-align: center;
+}
+
+td {
+    font-family: Arial;
+    font-size: 8pt;
+}
+
+div.createAccount {
+    width: 600px;
+    background: #C1D2DE;
+    border: 2px solid #001da0;
+    display:none;        
+}
+
+div.loading {
+    background: rgb(128,0,0);
+    position: absolute;
+    top:0;
+    right: 0;
+    color: white;
+    text-decoration: blink;
+    display:none;
+}
+
+div.loginResult {
+    color: rgb(128,0,0);
+    font-family: Arial;
+    font-size: 8pt;
+    display: none;
+}
+
+div#status {
+    position: absolute;
+    top: 0;
+    right: 1em;
+    display: none;
+    font-family: arial;
+    font-size: 10pt;
+    text-align: right;
+}

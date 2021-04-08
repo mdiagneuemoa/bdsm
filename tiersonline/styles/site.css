@@ -1,0 +1,303 @@
+/* Styles used throughout the entire web site */
+
+html {
+    /* font-size 62.5% makes 1rem equal 10px for easy size calculations. */
+      background-color: White;
+    font-size: 62.5%;
+    font-family: Calibri, Arial, sans-serif;
+    background-color: #EAEEFA;
+    height: 100%;
+    padding-left: 10rem;}
+/*
+body {
+    height: 100%;
+    margin: 0;
+    font-size: 1.8rem;
+}
+*/
+
+
+body {
+  /*background-color: #EBE8E4;*/
+  background-color: White;
+
+  color: #222;
+  font-size: 15px;
+  margin: 0;
+
+}
+
+
+
+input, button {
+    margin: 0;    
+    font-size: 1.8rem;
+    font-family: Calibri, Arial, sans-serif;
+}
+
+.container {
+    padding: 0 1rem;
+    max-width: 90%;
+    /* Horizontally center containers */
+    margin: 0 auto;
+}
+
+.lvt {
+	background-color:#AFAFAF;
+	border:0px  #cce; 
+	
+}
+
+.paramtitre {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	background-color: #FFD0BD;
+	/*background-image: url(images/fond.jpg);
+	background-repeat: repeat-x;*/
+}
+
+
+.dvtTabCache {
+	border-bottom:1px solid #dedede;
+}
+
+.dvtTabCacheBottom {
+	border-top:1px solid #dedede;
+}
+
+.dvtTabCacheBottom {
+	border-top:1px solid #dedede;
+}
+
+.dvtContentSpace {
+	border-left:1px solid #dedede;
+	border-right:1px solid #dedede;
+	border-bottom:1px solid #dedede;
+	padding-left:0px;
+}
+
+.dvtCellLabel, .cellLabel {
+background:#F7F7F7 url(images/testsidebar.jpg) repeat-y scroll right center;
+border-bottom:1px solid #DEDEDE;
+border-left:1px solid #DEDEDE;
+border-right:1px solid #DEDEDE;
+color:#545454;
+padding-left:10px;
+padding-right:10px;
+white-space:nowrap;
+text-align:left;}
+
+.dvtCellInfo, .cellInfo {
+	padding-left:10px;
+	padding-right:10px;
+	border-bottom:1px solid #dedede;	
+	border-right:1px solid #dedede;
+	border-left:1px solid #dedede;
+}
+
+.lvtCol {
+	border-top:1px solid #fff;
+	border-left:1px solid #ddd;
+	border-right:0px solid #fff;
+	border-bottom:0px solid #fff;
+	background: white url(images/level2Bg.gif) repeat-x scroll center bottom;
+	font-weight:bold;
+}
+.small {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000000;
+	/*background-color: gray;*/
+	/*background-image: url(images/fond.jpg);
+	background-repeat: repeat-x;*/
+}
+.small table.small, .small table.small table{
+	border: 0px solid gray;	
+	/*background-image: url(images/fond2.jpg);
+	background-repeat: repeat-x;*/
+}
+.small table.lvtBg table.small table{
+	background-image: none;
+	background-color: #FFF;
+}
+.small div.small{
+	background-color: #FFF;
+	background-image:none;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+
+.dvtSelectedCell {
+	border-left:1px solid #e0dddd;
+	border-top:1px solid #e0dddd;
+	border-bottom:0px solid #e0dddd;
+	border-right:1px solid #e0dddd;
+	padding-left:20px;
+	padding-right:20px;
+	/*background-color:#dedede;*/
+	/*background:#d9dde6 url(images/light-bg11.png) bottom repeat-x; */
+	background:#ffffff url(images/tab.gif) top repeat-x; 
+	font-weight:bold;
+	color: black;
+	line-height:20px;
+}
+
+.dvtUnSelectedCell {
+	border-left:1px solid #dedede;
+	border-top:1px solid #e0dddd;
+	border-right:1px solid #e0dddd;
+	border-bottom:1px solid #e0dddd;
+	padding-left:20px;
+	padding-right:20px;
+	background: #FFF ;
+	cursor:pointer;
+	color: black;
+}
+
+section.page-section .container {
+    padding-bottom: 2rem;
+}
+
+h1 {
+    font-size: 4rem;
+    letter-spacing: -1px;
+    margin: 1em 0 .25em 0;
+}
+
+
+			  
+div#divContainer
+        {
+            max-width: 98%;
+            max-height: 98%;
+            margin: 0 auto;
+            font-family: Calibri;
+            padding: 0.5em 1em 1em 1em;
+ 
+            /* rounded corners */
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            border-radius: 10px;
+ 
+            /* add gradient */
+            /*background-color: #808080;
+            background: -webkit-gradient(linear, left top, left bottom, from(#606060), to(#808080));
+            background: -moz-linear-gradient(top, #606060, #808080);*/
+ 
+            /* add box shadows */
+            -moz-box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+            -webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+        }
+ 
+ 	
+        /*** sample table to demonstrate CSS3 formatting ***/
+		
+		table.tabdetstyle {
+            width: 70%;
+            height: 100%;
+            border-collapse:collapse;
+            text-align:left;
+            color: #606060;
+		 background-color: White;
+
+        }
+		
+        table.tabstyle {
+            width: 98%;
+            height: 100%;
+            border-collapse:collapse;
+            text-align:left;
+            color: #606060;
+			/*table-layout:fixed;*/
+			
+        }
+ 
+        /*** table's thead section, head row style ***/
+        table.tabstyle thead tr td  {
+            background-color: White;
+            vertical-align:middle;
+            padding: 0.4em;
+            font-size:0.5em;
+			overflow:hidden;
+			text-align:justify;
+			height : 5px;
+			/*width : 400px;*/
+        }
+ 
+        /*** table's thead section, coulmns header style ***/
+        table.tabstyle thead tr th
+        {
+            padding: 0.5em;
+            /* add gradient */
+            background-color: #808080;
+            background: -webkit-gradient(linear, left top, left bottom, from(#606060), to(#909090));
+            background: -moz-linear-gradient(top, #606060, #909090);
+            color: #dadada;
+        }
+ 
+        /*** table's tbody section, odd rows style ***/
+        table.tabstyle tbody tr:nth-child(odd) {
+           background-color: #fafafa;
+        }
+ 
+        /*** hover effect to table's tbody odd rows ***/
+        table.tabstyle tbody tr:nth-child(odd):hover
+        {
+            cursor:pointer;
+            /* add gradient */
+            background-color: #808080;
+            background: -webkit-gradient(linear, left top, left bottom, from(#606060), to(#909090));
+            background: -moz-linear-gradient(top, #606060, #909090);
+            color: #dadada;
+        }
+ 
+        /*** table's tbody section, even rows style ***/
+        table.tabstyle tbody tr:nth-child(even) {
+            background-color: #efefef;
+        }
+ 
+        /*** hover effect to apply to table's tbody section, even rows ***/
+        table.tabstyle tbody tr:nth-child(even):hover
+        {
+            cursor:pointer;
+            /* add gradient */
+            background-color: #808080;
+            background: -webkit-gradient(linear, left top, left bottom, from(#606060), to(#909090));
+            background: -moz-linear-gradient(top, #606060, #909090);
+            color: #dadada;
+        }
+ 
+       /*** table's tbody section, last row style ***/
+        table.tabstyle tbody tr:last-child {
+             border-bottom: solid 1px #404040;
+        }
+ 
+        /*** table's tbody section, separator row pseudo-class ***/
+        table.tabstyle tbody tr.separator {
+            /* add gradient */
+            background-color: #808080;
+            background: -webkit-gradient(linear, left top, left bottom, from(#606060), to(#909090));
+            background: -moz-linear-gradient(top, #606060, #909090);
+            color: #dadada;
+        }
+ 
+        /*** table's td element, all section ***/
+        table.tabstyle td {
+           vertical-align:middle;
+           padding: 0.3em;
+        }
+		table.tabstyle a {
+           vertical-align:middle;
+           padding: 0.3em;
+		   color:#606060;
+		   text-decoration:none;
+        }
+        /*** table's tfoot section ***/
+        table.tabstyle tfoot{
+            text-align:center;
+            color:#303030;
+            text-shadow: 0 1px 1px rgba(255,255,255,0.3);
+        }

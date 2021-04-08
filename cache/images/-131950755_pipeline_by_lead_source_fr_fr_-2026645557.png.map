@@ -1,0 +1,11 @@
+<img src="cache/images/-131950755_pipeline_by_lead_source_fr_fr_-2026645557.png" border="0" usemap="#cache/images/-131950755_pipeline_by_lead_source_fr_fr_-2026645557.png">
+<map name="cache/images/-131950755_pipeline_by_lead_source_fr_fr_-2026645557.png">
+	<area shape="polygon" coords="424,238,577,238,556,314,500,370,424,391,369,381" href="index.php?module=Potentials&action=ListView&leadsource=--None--&query=true&type=dbrd&viewname=10" alt="2 Affaires où la source du prospect est Aucun	">
+	<area shape="polygon" coords="424,238,369,381,305,334,273,262,271,246" href="index.php?module=Potentials&action=ListView&leadsource=Self+Generated&query=true&type=dbrd&viewname=10" alt="1 Affaires où la source du prospect est Généré seul	">
+	<area shape="polygon" coords="424,238,271,246,280,186" href="index.php?module=Potentials&action=ListView&leadsource=Partner&query=true&type=dbrd&viewname=10" alt="1 Affaires où la source du prospect est Partenaire	">
+	<area shape="polygon" coords="424,238,280,186,326,121,379,92" href="index.php?module=Potentials&action=ListView&leadsource=Public+Relations&query=true&type=dbrd&viewname=10" alt="2 Affaires où la source du prospect est Relation publique	">
+	<area shape="polygon" coords="424,238,379,92,458,89,528,126,541,140" href="index.php?module=Potentials&action=ListView&leadsource=Direct+Mail&query=true&type=dbrd&viewname=10" alt="1 Affaires où la source du prospect est Mailling	">
+	<area shape="polygon" coords="424,238,541,140,554,157" href="index.php?module=Potentials&action=ListView&leadsource=Conference&query=true&type=dbrd&viewname=10" alt="1 Affaires où la source du prospect est Conférence	">
+	<area shape="polygon" coords="424,238,554,157,575,214" href="index.php?module=Potentials&action=ListView&leadsource=Word+of+mouth&query=true&type=dbrd&viewname=10" alt="1 Affaires où la source du prospect est Bouche à oreille	">
+	<area shape="polygon" coords="424,238,575,214,577,238" href="index.php?module=Potentials&action=ListView&leadsource=Other&query=true&type=dbrd&viewname=10" alt="1 Affaires où la source du prospect est Autre	">
+</map>

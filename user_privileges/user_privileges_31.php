@@ -1,0 +1,28 @@
+<?php
+
+
+//This is the access privilege file
+$is_admin=false;
+
+$current_user_roles='H29';
+
+$current_user_parent_role_seq='H1::H2::H31::H7::H25::H26::H29';
+
+$current_user_profiles=array(10,);
+
+$profileGlobalPermission=array('1'=>1,'2'=>1,);
+
+$profileTabsPermission=array('1'=>1,'2'=>0,'4'=>0,'6'=>0,'7'=>1,'8'=>0,'9'=>0,'10'=>1,'13'=>1,'14'=>1,'15'=>1,'16'=>0,'18'=>1,'19'=>1,'20'=>1,'21'=>1,'22'=>1,'23'=>1,'24'=>1,'25'=>0,'26'=>1,'27'=>1,'30'=>0,'32'=>0,);
+
+$profileActionPermission=array(2=>array(0=>1,1=>1,2=>1,3=>0,4=>0,5=>0,6=>0,10=>0,),4=>array(0=>1,1=>1,2=>1,3=>0,4=>0,5=>0,6=>0,8=>0,10=>0,),6=>array(0=>1,1=>1,2=>1,3=>0,4=>0,5=>0,6=>0,8=>0,10=>0,),7=>array(0=>1,1=>1,2=>1,3=>1,4=>1,5=>1,6=>1,8=>1,9=>1,10=>1,),8=>array(0=>0,1=>0,2=>1,3=>0,4=>0,6=>0,),9=>array(0=>1,1=>1,2=>1,3=>0,4=>0,),13=>array(0=>1,1=>1,2=>1,3=>1,4=>1,5=>1,6=>1,8=>1,10=>1,),14=>array(0=>1,1=>1,2=>1,3=>1,4=>1,5=>1,6=>1,10=>1,),15=>array(0=>1,1=>1,2=>1,3=>1,4=>1,),16=>array(0=>1,1=>1,2=>1,3=>0,4=>0,),18=>array(0=>1,1=>1,2=>1,3=>1,4=>1,5=>1,6=>1,10=>1,),19=>array(0=>1,1=>1,2=>1,3=>1,4=>1,),20=>array(0=>1,1=>1,2=>1,3=>1,4=>1,),21=>array(0=>1,1=>1,2=>1,3=>1,4=>1,),22=>array(0=>1,1=>1,2=>1,3=>1,4=>1,),23=>array(0=>1,1=>1,2=>1,3=>1,4=>1,),26=>array(0=>1,1=>1,2=>1,3=>1,4=>1,),30=>array(0=>0,1=>0,2=>0,3=>0,4=>0,),32=>array(0=>0,1=>0,2=>0,3=>0,4=>0,),);
+
+$current_user_groups=array();
+
+$subordinate_roles=array('H30',);
+
+$parent_roles=array('H1','H2','H31','H7','H25','H26',);
+
+$subordinate_roles_users=array('H30'=>array(14,),);
+
+$user_info=array('user_name'=>'moussathiam','is_admin'=>'off','user_password'=>'$1$mo$Ly7cKq/NdLEngCy1QXIKq.','confirm_password'=>'$1$mo$Ly7cKq/NdLEngCy1QXIKq.','first_name'=>'Moussa','last_name'=>'THIAM','roleid'=>'H29','email1'=>'babelmt@hotmail.com','status'=>'Active','activity_view'=>'','lead_view'=>'','currency_id'=>'','currency_name'=>'USA, Dollars','currency_code'=>'USD','currency_symbol'=>'&#36;','conv_rate'=>'1.000','hour_format'=>'','end_hour'=>'','start_hour'=>'','title'=>'Ingenenieur &#039; &eacute; &quot; &amp;','phone_work'=>'+2215863358','department'=>'','phone_mobile'=>'+22175056222','reports_to_id'=>'','phone_other'=>'','email2'=>'','phone_fax'=>'+6451022222','yahoo_id'=>'','phone_home'=>'','imagename'=>'','date_format'=>'dd-mm-yyyy','signature'=>'','description'=>'','reminder_interval'=>'','internal_mailer'=>'','address_street'=>'adr','address_city'=>'dakar','address_state'=>'20100','address_postalcode'=>'','address_country'=>'senegal','record_id'=>'','record_module'=>'','id'=>'31');
+?>

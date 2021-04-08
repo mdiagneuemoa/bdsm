@@ -1,0 +1,275 @@
+#main{
+width:100%;
+min-height:700px;
+/*margin:1px auto*/
+}
+
+																																		
+form#candidatform {
+  /*background: #808080;*/
+   background: #DCDCDC;
+ 
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 2px;
+  width: 100%;
+  margin: 65px 0px;
+  position: relative;
+}
+
+form#candidatform fieldset {
+  border: none;
+  margin-bottom: 2px;
+}
+form#candidatform fieldset:last-of-type {
+  margin-bottom: 0;
+}
+
+
+form#candidatform legend {
+  color: #27AE60;
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 2px;
+ /* text-shadow: 0 1px 1px #c0d576;*/
+}
+form#candidatform fieldset fieldset legend {
+  color: #111111;
+  font-size: 13px;
+  font-weight: normal;
+  padding-bottom: 0;
+}
+
+form#candidatform ol li {
+  background: #b9cf6a;
+  background: rgba(255,255,255,.3);
+  border-color: #e3ebc3;
+  border-color: rgba(255,255,255,.6);
+  border-style: solid;
+  border-width: 2px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  line-height: 20px;
+  list-style: none;
+  padding: 5px 10px;
+  margin-bottom: 2px;
+}
+form#candidatform ol ol li {
+  background: none;
+  border: none;
+  float: left;
+}
+
+
+form#candidatform label {
+  float: left;
+  font-size: 13px;
+  width: 150px;
+}
+form#candidatform fieldset fieldset label {
+  background:none no-repeat left 50%;
+  line-height: 20px;
+  padding: 0 0 0 30px;
+  width: auto;
+}
+form#candidatform  table {
+  width: 300px;
+}
+form#candidatform label[for=visa] {
+  background-image: url(visa.gif);
+}
+form#candidatform label[for=amex] {
+  background-image: url(amex.gif);
+}
+form#candidatform label[for=mastercard] {
+  background-image: url(mastercard.gif);
+}
+form#candidatform fieldset fieldset label:hover {
+  cursor: pointer;
+}
+
+form#candidatform input:not([type=checkbox]),
+form#candidatform textarea ,form#candidatform select{
+  background: #ffffff;
+  border: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  font: italic 13px Georgia, "Times New Roman", Times, serif;
+  outline: none;
+  padding: 5px;
+  width: 250px;
+}
+
+form#candidatform input:not([type=submit]):focus,
+form#candidatform textarea:focus {
+  /*background: #eaeaea;*/
+}
+form#candidatform input[type=radio] {
+  float: left;
+  margin-right: 5px;
+}
+/*
+form#candidatform button {
+  background: #255A99;
+  border: none;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+  display: block;
+  font: 18px Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 1px;
+  margin: auto;
+  padding: 7px 25px;
+  text-shadow: 0 1px 1px #000000;
+  text-transform: uppercase;
+}
+*/
+.butchoix {
+  background: green;
+  border: none;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+  display: block;
+  font: 12px Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 1px;
+  margin: auto;
+  padding: 2px 10px;
+  text-shadow: 0 1px 1px #000000;
+  cursor: pointer;
+}
+
+.butvalide {
+  background: #27AE60;
+  border: none;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+  display: block;
+  font: 18px Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 1px;
+  margin: auto;
+  padding: 7px 25px;
+  text-shadow: 0 1px 1px #000000;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.butcancel {
+  background: red;
+  border: none;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+  display: block;
+  font: 18px Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 1px;
+  margin: auto;
+  padding: 7px 25px;
+  text-shadow: 0 1px 1px #000000;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+/*
+form#candidatform button:hover {
+  background: #1e2506;
+  cursor: pointer;
+}
+*/
+.addcontact  {
+  background: #FF5900;
+  border: none;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+  display: block;
+  font: 14px Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 1px;
+  margin: auto;
+  padding: 5px 15px;
+  text-shadow: 0 1px 1px #000000;
+  cursor:pointer;
+}
+
+
+.catlib  {
+ 
+  color: #ABC8E2;
+  font: 10px Georgia, "Times New Roman", Times, serif;
+
+}
+
+.rubrique  {
+ 
+  color: #27AE60;
+  font: 12px Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  padding-bottom: 10px 10px;
+}
+
+.infoimport  {
+ 
+  color: red;
+  font: 12px Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  padding-bottom: 10px 10px;
+}
+
+.inscriptionclose  {
+ 
+  color: red;
+  font: 13px Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  padding-bottom: 10px 10px;
+  height : 150px;
+}
+
+.choixetab  {
+ 
+  color: green;
+  font: 12px Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  padding-bottom: 10px 10px;
+  margin: 50px;
+}
+
+.dvtUnSelectedCell {
+	border-left:1px solid #dedede;
+	border-top:1px solid #e0dddd;
+	border-right:1px solid #e0dddd;
+	border-bottom:1px solid #e0dddd;
+	padding-left:20px;
+	padding-right:20px;
+	background: #FFF ;
+	cursor:pointer;
+	color: black;
+}
+
+.dvtSelectedCell {
+	border-left:1px solid #e0dddd;
+	border-top:1px solid #e0dddd;
+	border-bottom:0px solid #e0dddd;
+	border-right:1px solid #e0dddd;
+	padding-left:20px;
+	padding-right:20px;
+	/*background-color:#dedede;*/
+	/*background:#d9dde6 url(images/light-bg11.png) bottom repeat-x; */
+	background:#ffffff url(images/tab.gif) top repeat-x; 
+	font-weight:bold;
+	color: black;
+	line-height:20px;
+}

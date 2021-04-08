@@ -1,0 +1,13 @@
+<img src="cache/images/pie_0__01249488366.png" border="0" usemap="#cache/images/pie_0__01249488366.png">
+<map name="cache/images/pie_0__01249488366.png">
+	<area shape="polygon" coords="444,282,607,282,585,364" href="index.php?module=Accounts&action=index&from_dashboard=true&search_text=Hospitality&search_field=industry&searchtype=BasicSearch&query=true&type=entchar&viewname=4" alt="H&Atilde;&acute;pital=%d">
+	<area shape="polygon" coords="444,282,585,364,526,423" href="index.php?module=Accounts&action=index&from_dashboard=true&search_text=Technology&search_field=industry&searchtype=BasicSearch&query=true&type=entchar&viewname=4" alt="Technologie=%d">
+	<area shape="polygon" coords="444,282,526,423,444,445" href="index.php?module=Accounts&action=index&from_dashboard=true&search_text=Other&search_field=industry&searchtype=BasicSearch&query=true&type=entchar&viewname=4" alt="Autre=%d">
+	<area shape="polygon" coords="444,282,444,445,362,423" href="index.php?module=Accounts&action=index&from_dashboard=true&search_text=Entertainment&search_field=industry&searchtype=BasicSearch&query=true&type=entchar&viewname=4" alt="Spectacle=%d">
+	<area shape="polygon" coords="444,282,362,423,303,364" href="index.php?module=Accounts&action=index&from_dashboard=true&search_text=Manufacturing&search_field=industry&searchtype=BasicSearch&query=true&type=entchar&viewname=4" alt="Industrie=%d">
+	<area shape="polygon" coords="444,282,303,364,281,282" href="index.php?module=Accounts&action=index&from_dashboard=true&search_text=Shipping&search_field=industry&searchtype=BasicSearch&query=true&type=entchar&viewname=4" alt="Transport=%d">
+	<area shape="polygon" coords="444,282,281,282,303,200,362,141,444,119" href="index.php?module=Accounts&action=index&from_dashboard=true&search_text=--None--&search_field=industry&searchtype=BasicSearch&query=true&type=entchar&viewname=4" alt="Aucun=%d">
+	<area shape="polygon" coords="444,282,444,119,526,141" href="index.php?module=Accounts&action=index&from_dashboard=true&search_text=Electronics&search_field=industry&searchtype=BasicSearch&query=true&type=entchar&viewname=4" alt="Electronique=%d">
+	<area shape="polygon" coords="444,282,526,141,585,200" href="index.php?module=Accounts&action=index&from_dashboard=true&search_text=Telecommunications&search_field=industry&searchtype=BasicSearch&query=true&type=entchar&viewname=4" alt="T&Atilde;&copy;l&Atilde;&copy;communications=%d">
+	<area shape="polygon" coords="444,282,585,200,607,282" href="index.php?module=Accounts&action=index&from_dashboard=true&search_text=Banking&search_field=industry&searchtype=BasicSearch&query=true&type=entchar&viewname=4" alt="Banque=%d">
+</map>
